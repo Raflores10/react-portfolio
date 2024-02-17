@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/esm/Card';
 
 export default function Project(props) {
     return (
@@ -11,7 +11,7 @@ export default function Project(props) {
             {props.description}
             </Card.Text>
             <Card.Link href={props.deployed}>Deployment</Card.Link>
-            <Card.Link href={props.repo}>Respo</Card.Link>
+            <Card.Link href={props.repo}>Repository</Card.Link>
         </Card.Body>
     </Card>
     );

@@ -3,7 +3,7 @@ import Project from '../projects'
 
 // Storing project details in variables
 const core = {
-  name: 'cor3 workout traacker',
+  name: 'cor3 workout tracker',
   description: '1 rep maximun workout tracker.',
   deployed: 'https://cor3app.herokuapp.com/',
   repo: 'https://github.com/Raflores10/workout-tracker',
